@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "maxfpsmod",
+  "version": "1.0.0",
+  "name": "MaxFPSMod",
+  "description": "Fabric mod for Minecraft Java that maximizes FPS without affecting visual quality.",
+  "authors": ["Simon Groebner"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.simongroebner65.maxfpsmod.MaxFPSMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
